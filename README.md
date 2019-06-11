@@ -11,4 +11,14 @@ Env vars:
   JAVA_HOME
 
 Paths:
-  platform-tools
+  platform-tools:
+    C:\Users\username\AppData\Local\Android\Sdk\platform-tools
+
+After installation:
+  file: local.properties:
+     sdk.dir=C\:\\Users\\username\\AppData\\Local\\Android\\sdk
+
+Eslint:
+  npm install eslint --save-dev
+  ./node_modules/.bin/eslint --init -> .eslintrc:
+    "extends": ["eslint:recommended", "plugin:react/recommended"]
